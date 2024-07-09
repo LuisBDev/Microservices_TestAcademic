@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 
 import java.util.List;
 
-@FeignClient(name = "msvc-student", url = "http://localhost:8090/api/students")
+@FeignClient(name = "msvc-student", url = "http://localhost:8080/api/students")
 public interface StudentClient {
 
 //    este metodo se encuentra en el microservicio de estudiante, debe ser tener el mismo nombre y parametros
