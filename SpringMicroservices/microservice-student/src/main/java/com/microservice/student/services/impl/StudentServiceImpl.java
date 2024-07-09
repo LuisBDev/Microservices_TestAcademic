@@ -31,7 +31,7 @@ public class StudentServiceImpl implements IStudentService {
     }
 
     @Override
-    public List<Student> findAllByCourseId(Long courseId) {
+    public List<Student> findAllStudentsByIdCourse(Long courseId) {
         return studentRepository.findAllByCourseId(courseId);
     }
 }
